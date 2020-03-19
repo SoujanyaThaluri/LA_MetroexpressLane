@@ -24,29 +24,29 @@ namespace TaskSchedule_LA_metroexpresslanes
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The LogOut recording.
+    ///The Close_AUT recording.
     /// </summary>
-    [TestModule("9d6528d5-135b-4184-b552-75cf49048345", ModuleType.Recording, 1)]
-    public partial class LogOut : ITestModule
+    [TestModule("7d034291-c200-45fe-a2f6-941ab2e8ea6e", ModuleType.Recording, 1)]
+    public partial class Close_AUT : ITestModule
     {
         /// <summary>
         /// Holds an instance of the TaskSchedule_LA_metroexpresslanesRepository repository.
         /// </summary>
         public static TaskSchedule_LA_metroexpresslanesRepository repo = TaskSchedule_LA_metroexpresslanesRepository.Instance;
 
-        static LogOut instance = new LogOut();
+        static Close_AUT instance = new Close_AUT();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public LogOut()
+        public Close_AUT()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static LogOut Instance
+        public static Close_AUT Instance
         {
             get { return instance; }
         }
@@ -79,19 +79,9 @@ namespace TaskSchedule_LA_metroexpresslanes
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.UserButton' at Center.", repo.METROEXPRESSLANES.UserButtonInfo, new RecordItemIndex(0));
-            repo.METROEXPRESSLANES.UserButton.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.Logout' at Center.", repo.METROEXPRESSLANES.LogoutInfo, new RecordItemIndex(1));
-            repo.METROEXPRESSLANES.Logout.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'METROEXPRESSLANES.LoginContainerNgScope'.", repo.METROEXPRESSLANES.LoginContainerNgScopeInfo, new RecordItemIndex(2));
-            Validate.Exists(repo.METROEXPRESSLANES.LoginContainerNgScopeInfo);
-            Delay.Milliseconds(100);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.METROEXPRESSLANES.LoginContainerNgScope, false, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'METROEXPRESSLANESGoogleChrome.Pane'.", repo.METROEXPRESSLANESGoogleChrome.PaneInfo, new RecordItemIndex(0));
+            Host.Current.KillApplication(repo.METROEXPRESSLANESGoogleChrome.Pane);
+            Delay.Milliseconds(0);
             
         }
 

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7d034291-c200-45fe-a2f6-941ab2e8ea6e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Close_AUT"
+	namespace="TaskSchedule_LA_metroexpresslanes">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="f8b4f1bc-66c3-44c4-956a-766c07da8f74">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="372d3818-b4b9-4402-bf27-399834672c7e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="0,0,1920,71"
+				role="container"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'METRO EXPRESSLANES - Google']/container[@accessiblename&gt;'METRO EXPRESSLANES - Google']/container/container[2]/container[1]
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="eca82b7c-380f-4b2f-972f-dbcf22cad2ee"
+	name="TaskSchedule_LA_metroexpresslanesRepository"
+	relativepath="TaskSchedule_LA_metroexpresslanesRepository.rxrep">
+		<codegen
+		classname="TaskSchedule_LA_metroexpresslanesRepository"
+		namespace="TaskSchedule_LA_metroexpresslanes">
+		</codegen>
+		<rootfolder
+		id="1bab5ec2-261c-41d6-9174-e46573a07dfe"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Close_AUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

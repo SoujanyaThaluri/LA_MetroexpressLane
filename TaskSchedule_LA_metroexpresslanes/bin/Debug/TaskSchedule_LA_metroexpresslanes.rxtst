@@ -18,6 +18,12 @@
 			name="TestCase">
 			</testcase>
 			<testmodule
+			id="841c753a-4561-4579-b7a8-2e9f750edcda"
+			name="Close_AUT"
+			ref="7d034291-c200-45fe-a2f6-941ab2e8ea6e"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="d0657567-3cc7-4663-aa62-52693b9dfaec"
 			name="LogOut"
 			ref="9d6528d5-135b-4184-b552-75cf49048345"
@@ -60,6 +66,10 @@
 						<testmodule
 						id="d0657567-3cc7-4663-aa62-52693b9dfaec"
 						name="LogOut">
+						</testmodule>
+						<testmodule
+						id="841c753a-4561-4579-b7a8-2e9f750edcda"
+						name="Close_AUT">
 						</testmodule>
 					</testcase>
 				</testcase>

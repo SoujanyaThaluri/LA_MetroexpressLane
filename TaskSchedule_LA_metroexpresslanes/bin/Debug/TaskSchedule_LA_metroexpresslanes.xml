@@ -43,6 +43,45 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.Close_AUT">
+             <summary>
+            The Close_AUT recording.
+             </summary>
+        </member>
+        <member name="F:TaskSchedule_LA_metroexpresslanes.Close_AUT.repo">
+            <summary>
+            Holds an instance of the TaskSchedule_LA_metroexpresslanesRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Close_AUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.Close_AUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Close_AUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskSchedule_LA_metroexpresslanes.Close_AUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Close_AUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Close_AUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:TaskSchedule_LA_metroexpresslanes.LogOut">
              <summary>
             The LogOut recording.
@@ -190,6 +229,16 @@
             The METROEXPRESSLANES folder.
             </summary>
         </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository.MetroExpresslanes1">
+            <summary>
+            The MetroExpresslanes1 folder.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository.METROEXPRESSLANESGoogleChrome">
+            <summary>
+            The METROEXPRESSLANESGoogleChrome folder.
+            </summary>
+        </member>
         <member name="T:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -263,6 +312,96 @@
         <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.LoginContainerNgScopeInfo">
             <summary>
             The LoginContainerNgScope item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder">
+            <summary>
+            The MetroExpresslanes1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MetroExpresslanes1  folder.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder">
+            <summary>
+            The METROEXPRESSLANESGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new METROEXPRESSLANESGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

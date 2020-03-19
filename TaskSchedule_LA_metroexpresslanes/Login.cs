@@ -83,6 +83,30 @@ namespace TaskSchedule_LA_metroexpresslanes
             Host.Current.OpenBrowser("https://www.metroexpresslanes.net", "Chrome", "", false, true, false, false, false, true);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MetroExpresslanes1.Login' at Center.", repo.MetroExpresslanes1.LoginInfo, new RecordItemIndex(1));
+            repo.MetroExpresslanes1.Login.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.Username' at Center.", repo.METROEXPRESSLANES.UsernameInfo, new RecordItemIndex(2));
+            repo.METROEXPRESSLANES.Username.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'KerrSmoke' with focus on 'METROEXPRESSLANES.Username'.", repo.METROEXPRESSLANES.UsernameInfo, new RecordItemIndex(3));
+            repo.METROEXPRESSLANES.Username.PressKeys("KerrSmoke");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.Password' at Center.", repo.METROEXPRESSLANES.PasswordInfo, new RecordItemIndex(4));
+            repo.METROEXPRESSLANES.Password.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'S@ndieg0' with focus on 'METROEXPRESSLANES.Password'.", repo.METROEXPRESSLANES.PasswordInfo, new RecordItemIndex(5));
+            repo.METROEXPRESSLANES.Password.PressKeys("S@ndieg0");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.Login' at Center.", repo.METROEXPRESSLANES.LoginInfo, new RecordItemIndex(6));
+            repo.METROEXPRESSLANES.Login.Click();
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

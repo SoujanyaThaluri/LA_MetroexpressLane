@@ -29,6 +29,8 @@ namespace TaskSchedule_LA_metroexpresslanes
         static TaskSchedule_LA_metroexpresslanesRepository instance = new TaskSchedule_LA_metroexpresslanesRepository();
         TaskSchedule_LA_metroexpresslanesRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
         TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder _metroexpresslanes;
+        TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder _metroexpresslanes1;
+        TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder _metroexpresslanesgooglechrome;
 
         /// <summary>
         /// Gets the singleton class instance representing the TaskSchedule_LA_metroexpresslanesRepository element repository.
@@ -47,6 +49,8 @@ namespace TaskSchedule_LA_metroexpresslanes
         {
             _applicationundertest = new TaskSchedule_LA_metroexpresslanesRepositoryFolders.ApplicationUnderTestAppFolder(this);
             _metroexpresslanes = new TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder(this);
+            _metroexpresslanes1 = new TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder(this);
+            _metroexpresslanesgooglechrome = new TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder(this);
         }
 
 #region Variables
@@ -81,6 +85,24 @@ namespace TaskSchedule_LA_metroexpresslanes
         public virtual TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder METROEXPRESSLANES
         {
             get { return _metroexpresslanes; }
+        }
+
+        /// <summary>
+        /// The MetroExpresslanes1 folder.
+        /// </summary>
+        [RepositoryFolder("ff0fea04-d75f-4f4e-8ce7-d7d9e2d6e543")]
+        public virtual TaskSchedule_LA_metroexpresslanesRepositoryFolders.MetroExpresslanes1AppFolder MetroExpresslanes1
+        {
+            get { return _metroexpresslanes1; }
+        }
+
+        /// <summary>
+        /// The METROEXPRESSLANESGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("3eef4b40-0f92-43b9-9596-37be3342928c")]
+        public virtual TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESGoogleChromeAppFolder METROEXPRESSLANESGoogleChrome
+        {
+            get { return _metroexpresslanesgooglechrome; }
         }
     }
 
@@ -139,6 +161,9 @@ namespace TaskSchedule_LA_metroexpresslanes
             RepoItemInfo _userbuttonInfo;
             RepoItemInfo _logoutInfo;
             RepoItemInfo _logincontainerngscopeInfo;
+            RepoItemInfo _usernameInfo;
+            RepoItemInfo _passwordInfo;
+            RepoItemInfo _loginInfo;
 
             /// <summary>
             /// Creates a new METROEXPRESSLANES  folder.
@@ -149,6 +174,9 @@ namespace TaskSchedule_LA_metroexpresslanes
                 _userbuttonInfo = new RepoItemInfo(this, "UserButton", ".//button[#'user-button']", 30000, null, "bf522e3a-8505-4183-84d6-484bd7ce18d1");
                 _logoutInfo = new RepoItemInfo(this, "Logout", ".//div[#'user-dropdown-menu']/?/?/span[@innertext='Logout']", 30000, null, "ba7cb74d-92bc-4fcd-b63f-9a13e5b57e4f");
                 _logincontainerngscopeInfo = new RepoItemInfo(this, "LoginContainerNgScope", "body/div/div", 30000, null, "365d1b3e-638e-4207-8eb3-572911ff4e0f");
+                _usernameInfo = new RepoItemInfo(this, "Username", ".//tag[#'username-input']/input[@name='username']", 30000, null, "dc20362e-a2f1-44d9-b4d2-4f1ade1c8150");
+                _passwordInfo = new RepoItemInfo(this, "Password", ".//tag[#'password-input']/input[@name='password']", 30000, null, "c181541b-23b2-4f01-abfc-41971c2b8c81");
+                _loginInfo = new RepoItemInfo(this, "Login", "body/div//form[@name='form']/div[1]/?/?/span[@innertext>'Login']", 30000, null, "c505f7be-0c48-441c-b5ca-e537572efe01");
             }
 
             /// <summary>
@@ -244,6 +272,210 @@ namespace TaskSchedule_LA_metroexpresslanes
                 get
                 {
                     return _logincontainerngscopeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Username item.
+            /// </summary>
+            [RepositoryItem("dc20362e-a2f1-44d9-b4d2-4f1ade1c8150")]
+            public virtual Ranorex.InputTag Username
+            {
+                get
+                {
+                    return _usernameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Username item info.
+            /// </summary>
+            [RepositoryItemInfo("dc20362e-a2f1-44d9-b4d2-4f1ade1c8150")]
+            public virtual RepoItemInfo UsernameInfo
+            {
+                get
+                {
+                    return _usernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Password item.
+            /// </summary>
+            [RepositoryItem("c181541b-23b2-4f01-abfc-41971c2b8c81")]
+            public virtual Ranorex.InputTag Password
+            {
+                get
+                {
+                    return _passwordInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Password item info.
+            /// </summary>
+            [RepositoryItemInfo("c181541b-23b2-4f01-abfc-41971c2b8c81")]
+            public virtual RepoItemInfo PasswordInfo
+            {
+                get
+                {
+                    return _passwordInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Login item.
+            /// </summary>
+            [RepositoryItem("c505f7be-0c48-441c-b5ca-e537572efe01")]
+            public virtual Ranorex.SpanTag Login
+            {
+                get
+                {
+                    return _loginInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Login item info.
+            /// </summary>
+            [RepositoryItemInfo("c505f7be-0c48-441c-b5ca-e537572efe01")]
+            public virtual RepoItemInfo LoginInfo
+            {
+                get
+                {
+                    return _loginInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The MetroExpresslanes1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ff0fea04-d75f-4f4e-8ce7-d7d9e2d6e543")]
+        public partial class MetroExpresslanes1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _loginInfo;
+
+            /// <summary>
+            /// Creates a new MetroExpresslanes1  folder.
+            /// </summary>
+            public MetroExpresslanes1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("MetroExpresslanes1", "/dom[@domain='www.metroexpresslanes.net']", parentFolder, 30000, null, false, "ff0fea04-d75f-4f4e-8ce7-d7d9e2d6e543", "")
+            {
+                _loginInfo = new RepoItemInfo(this, "Login", ".//ul[#'menu-top-menu']/?/?/a[@innertext='Login']", 30000, null, "f6c5fd68-0b96-4bf1-bc2a-6f9af4946a42");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ff0fea04-d75f-4f4e-8ce7-d7d9e2d6e543")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ff0fea04-d75f-4f4e-8ce7-d7d9e2d6e543")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Login item.
+            /// </summary>
+            [RepositoryItem("f6c5fd68-0b96-4bf1-bc2a-6f9af4946a42")]
+            public virtual Ranorex.ATag Login
+            {
+                get
+                {
+                    return _loginInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Login item info.
+            /// </summary>
+            [RepositoryItemInfo("f6c5fd68-0b96-4bf1-bc2a-6f9af4946a42")]
+            public virtual RepoItemInfo LoginInfo
+            {
+                get
+                {
+                    return _loginInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The METROEXPRESSLANESGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3eef4b40-0f92-43b9-9596-37be3342928c")]
+        public partial class METROEXPRESSLANESGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _paneInfo;
+
+            /// <summary>
+            /// Creates a new METROEXPRESSLANESGoogleChrome  folder.
+            /// </summary>
+            public METROEXPRESSLANESGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("METROEXPRESSLANESGoogleChrome", "/form[@title>'METRO EXPRESSLANES - Google']", parentFolder, 30000, null, true, "3eef4b40-0f92-43b9-9596-37be3342928c", "")
+            {
+                _paneInfo = new RepoItemInfo(this, "Pane", "container[@accessiblename>'METRO EXPRESSLANES - Google']/container/container[2]/container[1]", 30000, null, "372d3818-b4b9-4402-bf27-399834672c7e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3eef4b40-0f92-43b9-9596-37be3342928c")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3eef4b40-0f92-43b9-9596-37be3342928c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pane item.
+            /// </summary>
+            [RepositoryItem("372d3818-b4b9-4402-bf27-399834672c7e")]
+            public virtual Ranorex.Container Pane
+            {
+                get
+                {
+                    return _paneInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pane item info.
+            /// </summary>
+            [RepositoryItemInfo("372d3818-b4b9-4402-bf27-399834672c7e")]
+            public virtual RepoItemInfo PaneInfo
+            {
+                get
+                {
+                    return _paneInfo;
                 }
             }
         }

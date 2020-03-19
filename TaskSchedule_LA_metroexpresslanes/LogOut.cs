@@ -79,28 +79,19 @@ namespace TaskSchedule_LA_metroexpresslanes
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(0));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.UserButton' at 146;17.", repo.METROEXPRESSLANES.UserButtonInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.UserButton' at 146;17.", repo.METROEXPRESSLANES.UserButtonInfo, new RecordItemIndex(0));
             repo.METROEXPRESSLANES.UserButton.Click("146;17");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.Logout' at 27;5.", repo.METROEXPRESSLANES.LogoutInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'METROEXPRESSLANES.Logout' at 27;5.", repo.METROEXPRESSLANES.LogoutInfo, new RecordItemIndex(1));
             repo.METROEXPRESSLANES.Logout.Click("27;5");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
-            Delay.Duration(2000, false);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'METROEXPRESSLANES.LoginContainerNgScope'.", repo.METROEXPRESSLANES.LoginContainerNgScopeInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'METROEXPRESSLANES.LoginContainerNgScope'.", repo.METROEXPRESSLANES.LoginContainerNgScopeInfo, new RecordItemIndex(2));
             Validate.Exists(repo.METROEXPRESSLANES.LoginContainerNgScopeInfo);
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.METROEXPRESSLANES.LoginContainerNgScope, false, new RecordItemIndex(6));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.METROEXPRESSLANES.LoginContainerNgScope, false, new RecordItemIndex(3));
             
         }
 

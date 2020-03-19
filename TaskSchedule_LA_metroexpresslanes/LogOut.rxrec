@@ -25,15 +25,6 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -183,15 +174,6 @@ LQstuKkYAz71HN98fSo6KFF3u2XzwUHGEbX8wooorQwO9ooorE0CiiigAooooAKKKKACiiigAooo
 oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 			</helperscreenshot>
 		</mouseitem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -291,15 +273,6 @@ QepJrFpNNqyRcXTjNSm7W8gooorRbHHN3k2gooopkhRRRQAUUUUAdia57xL9+3+jf0roTXPeJfv2
 /eP50b2/vH86SigLIXe394/nRvb+8fzpKKAshd7f3j+dG9v7x/OkooCyP//Z
 			</helperscreenshot>
 		</mouseitem>
-		<explicitdelayitem
-		duration="2000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<validationitem
 		action="Exists"
 		duration="100ms"

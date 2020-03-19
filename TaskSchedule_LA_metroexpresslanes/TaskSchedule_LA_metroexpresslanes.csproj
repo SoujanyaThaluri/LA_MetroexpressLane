@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{C717FE0C-E0C2-4750-A33B-8254272BE3DE}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TaskSchedule_LA_metroexpresslanes</RootNamespace>
+    <AssemblyName>TaskSchedule_LA_metroexpresslanes</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>3a93bed6-1865-4ab3-89e5-c0d638458c31</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>3134d27c-8216-4985-9ed3-92cb93b356ae</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5b3f4ef0-44c2-44c3-a99b-7d6290cc96e0</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>3134d27c-8216-4985-9ed3-92cb93b356ae</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>95159257-cf92-4f0b-8df0-49be16b2ade7</id>
+    </Compile>
+    <Compile Include="LogOut.cs">
+      <BoundTo>e29b8dd2-4374-4c25-a9a6-d367f0cc7a86</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ffc581c-f4b4-48b6-934c-13810c16c6cc</id>
+    </Compile>
+    <Compile Include="LogOut.UserCode.cs">
+      <BoundTo>e29b8dd2-4374-4c25-a9a6-d367f0cc7a86</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4542a74c-d82e-4db5-88c1-e2eaffbfc563</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>f0050b37-cd0b-4e0e-b506-51b75ee8a35c</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb77f2a4-38dc-48d9-828c-9a07b63ee33a</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>f0050b37-cd0b-4e0e-b506-51b75ee8a35c</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4eda0e42-3e31-44c2-b041-da5f11a29d49</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>84013b4d-f729-4c2c-9cb4-ef158d480359</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>ca907b83-78a4-499d-abb5-4322afe53321</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>66bfd802-b0d6-456e-a297-8e2b2e0b4371</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>ca907b83-78a4-499d-abb5-4322afe53321</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>63425d52-206f-4040-94bf-b55bd411c69c</id>
+    </Compile>
+    <Compile Include="TaskSchedule_LA_metroexpresslanesRepository.cs">
+      <BoundTo>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</BoundTo>
+      <DependentUpon>TaskSchedule_LA_metroexpresslanesRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>5b548372-bf12-448f-912a-c83b85f408cc</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>bebdaf85-8a27-402e-a48f-c504dbe0a2a1</id>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</BoundTo>
+      <id>3134d27c-8216-4985-9ed3-92cb93b356ae</id>
+      <recordtableid>2a2236b5-3da8-45bd-85a7-d1fe0abae81f</recordtableid>
+    </None>
+    <None Include="LogOut.rxrec">
+      <BoundTo>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</BoundTo>
+      <id>e29b8dd2-4374-4c25-a9a6-d367f0cc7a86</id>
+      <recordtableid>9d6528d5-135b-4184-b552-75cf49048345</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</BoundTo>
+      <id>f0050b37-cd0b-4e0e-b506-51b75ee8a35c</id>
+      <recordtableid>e6bed00f-ac18-47f4-a5e1-8b8b3ffaf1c2</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</BoundTo>
+      <id>ca907b83-78a4-499d-abb5-4322afe53321</id>
+      <recordtableid>c3154aa2-9eeb-42ae-a68f-8530dd0ce076</recordtableid>
+    </None>
+    <None Include="TaskSchedule_LA_metroexpresslanesRepository.rximg">
+      <BoundTo>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</BoundTo>
+      <DependentUpon>TaskSchedule_LA_metroexpresslanesRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>070b3652-3783-4a88-982c-3f7cf9fe7faa</id>
+    </None>
+    <None Include="TaskSchedule_LA_metroexpresslanesRepository.rxrep">
+      <id>116a09ff-fcb8-4d6b-8bec-0abac9a2a728</id>
+      <repoid>eca82b7c-380f-4b2f-972f-dbcf22cad2ee</repoid>
+      <reporootid>1bab5ec2-261c-41d6-9174-e46573a07dfe</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TaskSchedule_LA_metroexpresslanes.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1f880be9-bf40-4440-b940-944028051914</id>
+    </Content>
+    <Content Include="TaskSchedule_LA_metroexpresslanes.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1acfa6d0-f02e-4c8b-b548-d07649c7ad7c</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

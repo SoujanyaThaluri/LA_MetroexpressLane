@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c3154aa2-9eeb-42ae-a68f-8530dd0ce076"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Login"
+	namespace="TaskSchedule_LA_metroexpresslanes">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.metroexpresslanes.net
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="eca82b7c-380f-4b2f-972f-dbcf22cad2ee"
+	name="TaskSchedule_LA_metroexpresslanesRepository"
+	relativepath="TaskSchedule_LA_metroexpresslanesRepository.rxrep">
+		<codegen
+		classname="TaskSchedule_LA_metroexpresslanesRepository"
+		namespace="TaskSchedule_LA_metroexpresslanes">
+		</codegen>
+		<rootfolder
+		id="1bab5ec2-261c-41d6-9174-e46573a07dfe"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

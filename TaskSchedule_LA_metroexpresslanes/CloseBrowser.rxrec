@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2a2236b5-3da8-45bd-85a7-d1fe0abae81f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="TaskSchedule_LA_metroexpresslanes">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="0cd450c9-c9c4-4494-affa-ce7ae12a6db9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="45c25457-3b0c-48ff-856e-b4cca1f10145"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="eca82b7c-380f-4b2f-972f-dbcf22cad2ee"
+	name="TaskSchedule_LA_metroexpresslanesRepository"
+	relativepath="TaskSchedule_LA_metroexpresslanesRepository.rxrep">
+		<codegen
+		classname="TaskSchedule_LA_metroexpresslanesRepository"
+		namespace="TaskSchedule_LA_metroexpresslanes">
+		</codegen>
+		<rootfolder
+		id="1bab5ec2-261c-41d6-9174-e46573a07dfe"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

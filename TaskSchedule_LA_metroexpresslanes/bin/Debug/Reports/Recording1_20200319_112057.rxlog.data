@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="18.31s"
+		durationms="18305"
+		type="root"
+		rid="2dfc6307cc8fbe2c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ThalluriS"
+		rxversion="9.3.0.0"
+		host="PLA-STHALLURI"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/19/2020 11:21:10 AM"
+		timestampiso="2020-03-19T16:21:10"
+		endtime="3/19/2020 11:21:28 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.643"
+			timeRelativeToTestModuleStartTime="00:17.643"
+			timeWallClock="11:21:28"
+			time="00:17.643"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.metroexpresslanes.net' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\PROJECTS\LA_metroexpresslanes\TaskSchedule_LA_metroexpresslanes\TaskSchedule_LA_metroexpresslanes\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

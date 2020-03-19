@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskSchedule_LA_metroexpresslanes</name>
+    </assembly>
+    <members>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TaskSchedule_LA_metroexpresslanes.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the TaskSchedule_LA_metroexpresslanesRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskSchedule_LA_metroexpresslanes.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.LogOut">
+             <summary>
+            The LogOut recording.
+             </summary>
+        </member>
+        <member name="F:TaskSchedule_LA_metroexpresslanes.LogOut.repo">
+            <summary>
+            Holds an instance of the TaskSchedule_LA_metroexpresslanesRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.LogOut.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.LogOut.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.LogOut.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskSchedule_LA_metroexpresslanes.LogOut.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.LogOut.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.LogOut.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TaskSchedule_LA_metroexpresslanes.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the TaskSchedule_LA_metroexpresslanesRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskSchedule_LA_metroexpresslanes.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:TaskSchedule_LA_metroexpresslanes.Login.repo">
+            <summary>
+            Holds an instance of the TaskSchedule_LA_metroexpresslanesRepository repository.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TaskSchedule_LA_metroexpresslanes.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository">
+            <summary>
+            The class representing the TaskSchedule_LA_metroexpresslanesRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TaskSchedule_LA_metroexpresslanesRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepository.METROEXPRESSLANES">
+            <summary>
+            The METROEXPRESSLANES folder.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder">
+            <summary>
+            The METROEXPRESSLANESAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new METROEXPRESSLANES  folder.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.UserButton">
+            <summary>
+            The UserButton item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.UserButtonInfo">
+            <summary>
+            The UserButton item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.LoginContainerNgScope">
+            <summary>
+            The LoginContainerNgScope item.
+            </summary>
+        </member>
+        <member name="P:TaskSchedule_LA_metroexpresslanes.TaskSchedule_LA_metroexpresslanesRepositoryFolders.METROEXPRESSLANESAppFolder.LoginContainerNgScopeInfo">
+            <summary>
+            The LoginContainerNgScope item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
